@@ -97,7 +97,7 @@ export default function Calculator() {
           {/* Row 1 */}
           <Button
             onClick={clear}
-            className="col-span-2 bg-red-500 hover:bg-red-600 text-white"
+            className="col-span-2 bg-purple-500 hover:bg-purple-600 text-white"
           >
             Clear
           </Button>
@@ -210,4 +210,5 @@ export default function Calculator() {
     </div>
   );
 }
+
 
